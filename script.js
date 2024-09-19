@@ -26,7 +26,7 @@ function MakeBubble(){
     }
         else {
     
-        for (let i = 0; i < 234; i++) {
+        for (let i = 0; i < 243; i++) {
             color='#' + Math.floor(Math.random()*16777215).toString(16);
               n=Math.floor(Math.random() *10);
                 clutter+=`<div class="bbl" style="background-color:${color}">${n}</div>`; 
